@@ -515,8 +515,18 @@ header {
   transition: transform 0.3s ease;
 }
 
+.nexhub-logo {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
 .skill-icon:hover .bsi-logo,
 .skill-icon:hover .roblox-logo,
+.skill-icon:hover .nexhub-logo,
 .skill-icon:hover .lua-icon {
   transform: scale(1.1);
 }
